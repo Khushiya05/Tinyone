@@ -1,0 +1,209 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+	background-color:#fcdb00;
+	padding:60px 0 106px 0;
+}
+.container{
+	width:1180px;
+	margin:0 auto;
+}
+.navbar{
+	list-style:none;
+	text-align:right;
+}
+.navbar li{
+	display:inline-block;
+	margin-left:10px;
+}
+.logo{
+	display:inline-block;
+}
+.navbar li a:link,
+.navbar li a:visited{
+	text-decoration:none;
+	text-transform:capitalize;
+	color:#010101;
+	font-size:22px;
+	font-weight:bold;
+	padding:0 30px;
+	display:inline-block;
+	height:47px;
+	line-height:47px;
+}
+[class ^="col-"]{
+	float:left;
+	padding:0 15px;
+}
+.col-2{
+	width: calc(100% * 2 / 12);
+}
+.col-3{
+	width: calc(100% * 3 / 12);
+}
+.col-4{
+	width: calc(100% * 4 / 12);
+}
+.col-5{
+	width: calc(100% * 5 / 12);
+}
+.col-9{
+	width: calc(100% * 9 / 12);
+}
+.col-1{
+	width: calc(100% * 1 / 12);
+}
+.col-10{
+	width: calc(100% * 10 / 12);
+}
+/* offset classes......*/
+.col-offset-1{
+	margin-left: calc(100% * 1 / 12);
+}
+.col-offset-2{
+	margin-left: calc(100% * 2 / 12);
+}
+
+
+.pri-heading{
+	font-size:32px;
+	font-weight:bold;
+	color:#010101;
+	margin-bottom:22px;
+}
+.sub-heading{
+	font-size:20px;
+	color:#313841;
+	font-weight:400;
+	margin-bottom:24px;
+}
+.para{
+	font-size:16px;
+	color:#555555;
+	font-weight:400;
+}
+.inspiration{
+	margin-top:75px;
+}
+
+.row,
+.row::after,
+.row::before{
+	display:table;
+	clear:both;
+	width:100%;
+}
+.mb-70{
+	margin-bottom:70px;
+}
+.ipad{
+	margin-left:60px;
+}
+.icons{
+	list-style:none;
+}
+.icons li{
+	display:inline-block;
+	margin-top:40px;
+	margin-right:40px;
+	font-size:42px;
+}
+.icons li i{
+	
+  color: #010101;
+}.icons li i:hover{
+	transform:rotate(180deg);
+}
+
+
+/* css for feature section#############*/
+
+
+.features{
+	padding:105px 0 170px;
+}
+.text-align{
+	text-align:center;
+}
+.thambnail i{
+	font-size:40px;
+}
+.thambnail h4{
+	font-size:22px;
+	color:#010101;
+	margin-bottom:15px;
+}
+.thambnail p{
+	font-size:16px;
+	color:#898989;
+}
+.mb-90{
+	margin-bottom:90px;
+}
+
+/* css for footer section################ */
+.footer{
+	padding:80px 0 145px;
+	background-color:#010101;
+}
+.footer .pri-heading{
+	color:#fcdb00;
+}
+.footer .sub-heading{
+	color:#676767;
+	margin-bottom:40px;
+}
+.submitbutton{
+	background-color:#fbdb00;
+	width:125px;
+	height:50px;
+	border-radius:10px;
+	color:#010101;
+	font-weight:700;
+	cursor:pointer;
+}
+.submitbutton:hover,
+.submitbutton:focus,
+.submitbutton:active{
+	background-color:green;
+	color:#fcd00;
+}
+
+.email{
+	padding:0 25px;
+	width: calc(100% - 150px);
+	border-radius:10px;
+	border:2px solid #ffffff;
+	height:50px;
+	margin-bottom:78px;
+}
+.footer .icons i{
+	
+	color:#fcdb00;
+	font-size:37px;
+	margin-top:0;
+	
+}
+.footer .icons i:hover{
+	transform:translateY(-10px);
+}
+.mb-140{
+	margin-bottom:140px;
+}
+.simpleul li{
+	color:#ffffff;
+	list-style:none;
+	text-transform:capitalize;
+}
+.simpleul li a:link,
+.simpleul li a:visited{
+	color:#fff;
+	text-decoration:none;
+}
